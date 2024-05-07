@@ -7,6 +7,13 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class Myadapter extends RecyclerView.Adapter<Myadapter.MyViewHolder> {
+
+    String data1
+    public Myadapter(){
+
+    }
+
+
     @NonNull
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
